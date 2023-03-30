@@ -1,0 +1,121 @@
+* {
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/** Estilos para la foto de perfil */
+#foto_de_perfil {
+    width: 20%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid brown;
+    background-color: white;
+}
+
+#header_principal {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/04/64/94/64/1000_F_464946437_KGE5il7oaqPtdA2wgDbNnsbQzc2ZooCB.jpg);
+    background-size: 100% 100%;
+    font-weight: bold;
+    color: black;
+    border: 1px solid coral;
+    padding: 20px 0;
+    margin: 0 500px 0 500px;
+    background-color: white;  
+}
+
+/** estilos para la barra de navegacion*/
+.barra_de_navegacion {
+    background-color: brown;
+    padding: 10px;
+}
+.fijar{
+    position: sticky;
+    top: 0;
+}
+
+.contenido{
+    padding: 16px;
+}
+
+.fijar + .contenido {
+    padding-top: 150px;
+}
+
+/** estilos para los menus de la barra de navegacion*/
+.nav{
+    color: bisque;
+    background-color: brown;
+    padding: 0 15px;
+}
+.nav:hover{
+    color: white;
+}
+
+a{
+    background-color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div {
+    font-weight: bold;
+    color: black;
+    border-right: 1px solid coral;
+    border-bottom: 1px solid coral;
+    border-left: 1px solid coral;
+    padding: 20px;
+    margin: 0 500px 0 500px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    color: darkred;
+    font-family: 'EB Garamond', serif;
+    font-size:50px;
+    font-weight: bold;
+    border: 1px solid coral;
+    margin: 0 500px 0 500px;
+    background-color: white;
+}
+
+h2 {
+    margin: 0 0 15px 20px;
+    background-color: white;
+}
+
+label {
+    color:brown;
+    background-color: white;
+    margin: 0 5px 0 40px;
+}
+
+span {
+    background-color: white;
+    font-weight: bold;
+}
+
+ul {
+    margin: 16px 0 0 0;
+    padding-left: 60px;
+    background-color: white;
+}
+
+.fondo_y_padding {
+    background-color: white;
+    padding-right: 20px;
+    text-align: justify;
+    margin: 20px 0 0 0;
+}
